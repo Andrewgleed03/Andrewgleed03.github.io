@@ -1,0 +1,53 @@
+<html>
+<head>
+	<title> NBA TRIVIA</title>
+	<script>
+	function answer(){ 
+var radio = document.getElementsByName("trivia");
+var selection = false;
+var message = ""; 
+for( var i = 0; i < radio.length; i++) {
+if(radio[i].value == "yes" && radio[i].checked == true) { 
+selection = true; 
+} //end if statement 
+} //end for loop
+if(selection == true) {
+message = message + "<b><p style='color:green'>Way to go!</p></b>"; 
+} else { 
+message = message + "<b><p style='color:red'>Try again my friend.</p></b>"; 
+}
+document.getElementById("response").innerHTML = message;
+} //end function answer
+	</script>
+	<link type="text/css" rel="stylesheet" href="main.css" />
+</head>
+<body id="background"><center>
+	<a class="a" href="file:///Users/andey/Desktop/website/website.html"> <u>|   		CAREER RECORDS   		|</u></a>
+		<a class="a" href="file:///Users/andey/Desktop/website/in-game.html">|   		IN-GAME RECORDS  		 |</a> 
+			<a class="a" href="file:///Users/andey/Desktop/website/trivia.html">|   		NBA TRIVIA   		|</a>
+			<a class="a" href="file:///Users/andey/Desktop/website/coming%20soon.html">|   		TEAM RECORDS   		|</a>
+	<h1 class="gold"> THIS IS A TRIVIA ABOUT THE NBA</h1>
+</center>
+		<center>
+			<form class="margin">
+				<div id="response"> </div>
+				<div class="wrap-triv">
+				<h3 class="form">What Team Won the '11 Champiopnship hint below</h3>
+
+	<audio width="400" height="220" controls>
+	<source src="http://www.w3schools.com/tags/horse.mp3" type="audio/mpeg">
+	Your browser does not support HTML 5 audio.
+	</audio>
+				<center>
+				<input type="radio" value="no" id="button" name="trivia"> Spurs <br>
+				<input type="radio" value="yes" id="button" name="trivia"> Mavericks<br>
+				<input type="radio" value="no" id="button" name="trivia"> 76ers <br>
+				<input type="radio" value="no" id="button" name="trivia"> Nets <br>
+				<input onclick="answer()"type="button" id="submit" value="submit">
+			</center>
+			</form>
+		</div>
+					</center>
+</center>
+</body> 
+</html>

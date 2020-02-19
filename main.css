@@ -1,0 +1,134 @@
+	.paragraph{
+color:#FB785C;
+font-size:22px;
+	}
+	.listitem{
+color:#2AB5AC;
+font-size:22px;
+}
+	#background{
+	background-color:#163250;
+}
+#button{
+	width:150px; 
+	height:100px;
+	color:#F3CA4D;
+	background-color:#2AB5AC;
+	border-radius:20px;
+	font-size:30px;
+}
+	.wrap-list {
+		width: 90%;
+		border: 30px double #DF5A0E;
+	}
+.wrap-triv {
+height:600px;
+width:300px;
+border: 20px ridge #DF5A0E;
+}
+.gold {
+	color:#F3CA4D;  
+}
+.rip{
+	color:#D0CF00;
+}
+.kobe{
+	color:#7100D0;
+}
+.bryant{
+	color:#D0CF00;
+}
+#banner{
+		font-size:28px;
+		background-color:black;
+		border:10px ridge #DF5A0E; 
+		width:100%;
+	}
+	.form{
+		color:#2AB5AC;
+		position:relative;
+		top:40px;
+	}
+	.title{
+		color:#F3CA4D;
+	}
+	.woo{
+		color:#FB785C;
+	}
+	#div1{
+		height:150px; 
+		width:150px;
+		background-color:blue;
+		display: inline-block;
+		position:absolute;
+		z-index: 1;
+	}
+	#div2{
+		height:150px; 
+		width:150px;
+		background-color:green;
+				display: inline-block;
+						position:absolute;
+						z-index: 3;
+						position:relative;
+						top:50%;
+						left:50%;
+	}
+	#div3{
+		height:150px; 
+		width:150px;
+		background-color: red;
+		 display: inline-block;
+		 		position:fixed;
+		 		z-index: 2;
+		 		left:25%;
+	}
+	#background-h{
+		height:2048px;
+	}
+	.margin{
+		margin-top: 100px;
+	}
+	.wrap-header{
+		border:15px double #DF5A0E;
+		margin-top: 60px;
+		width:92%;
+	}
+	#listed{
+			list-style-type: none;
+			text-align: center; 	
+			display: justify;
+
+		}
+		.a:link{
+				color:#2AB5AC;
+		}
+		.a:visited{
+			color:#F3CA4D;
+		}
+		.a:hover{
+			color:#FB785C;
+		}
+					#right {
+float:right;
+width:35%;
+}
+
+		#left{
+			float:left;
+			width:65%;
+		}
+		.clearfloat{
+			clear:both;
+		}
+		.img{
+			float:right;
+			border:ridge #DF5A0E 10px;
+		}
+		.jordan{
+			float:left;
+			border:ridge #DF5A0E 10px;
+		}
+		.carter{
+			border:ridge #DF5A0E 17px;
+		}
